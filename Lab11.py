@@ -88,7 +88,7 @@ def get_assignment_stats(assignment_id):
         elif score > max_score:
             max_score = score
 
-    average = round(average/30)
+    average = int(average/30)
     stats = f'Min: {min_score}%\nAvg: {average}%\nMax: {max_score}%'
     return stats
 
