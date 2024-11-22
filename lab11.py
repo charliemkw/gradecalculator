@@ -21,7 +21,7 @@ for i in range(0, len(assignments), 3):
 
 # Create large list with all submission information
 submissions = []
-path = "/Users/charlie.willis/PycharmProjects/COP3502C/lab11/grade_calculator/data/submissions"
+path = "data/submissions"
 for root, dirs, files in os.walk(path):
     for file in files:
         filepath = os.path.join(root, file)
